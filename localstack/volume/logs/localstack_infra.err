@@ -1,0 +1,14 @@
+2023-05-30T23:00:04.440  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-05-30T23:00:04.440  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-05-30T23:00:04.452  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-05-30T23:00:04.452  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-05-30T23:01:53.224  INFO --- [   asgi_gw_0] localstack.utils.bootstrap : Execution of "_load_service_plugin" took 639.41ms
+2023-05-30T23:01:53.225  INFO --- [   asgi_gw_0] localstack.utils.bootstrap : Execution of "require" took 641.22ms
+2023-05-30T23:01:53.479  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-05-30T23:01:53.522  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-05-30T23:01:53.539  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-05-30T23:01:53.555  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.GetParametersByPath => 200
+2023-05-30T23:01:54.021  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS secretsmanager.GetSecretValue => 400 (ResourceNotFoundException)
+2023-05-30T23:03:15.408  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.PutParameter => 200
+2023-05-30T23:03:22.123  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS ssm.PutParameter => 400 (ParameterAlreadyExists)
+2023-05-30T23:03:28.006  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS ssm.PutParameter => 400 (ParameterAlreadyExists)
